@@ -7,7 +7,7 @@ import javax.persistence.*
 data class Product(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private val id: Long,
-    private val name: String,
-    private val quantity: Int
+    val id: Long,
+    val name: String,
+    val quantity: Int
 )

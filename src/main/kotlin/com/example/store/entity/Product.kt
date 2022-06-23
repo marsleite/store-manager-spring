@@ -17,5 +17,5 @@ data class Product(
 
     @NotNull
     @Size(min = 1, message = "quantidade deve ser maior que 0")
-    val quantity: Int
+    var quantity: Int
 )
